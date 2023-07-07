@@ -1,20 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+#define LIMIT 25
  struct person {
-        char name[10];
+        char name[LIMIT];
         int age;
-        char address[20];
-        char phone_number[15];
+        char address[LIMIT];
+        char phone_number[LIMIT];
 };
 int main() {
    struct person first_person_instance;
-   for (int i= 0; i < 10; i++ ){
-       first_person_instance.name[i] = 'A' + i;
-   }
-   first_person_instance.name[10] = '\0';
+   strcpy(first_person_instance.name, "global smile");
    strcpy(first_person_instance.address, "9 Abadina College UI");
    strcpy(first_person_instance.phone_number,"+2349012345678");
-   first_person_instance.phone_number[15] = '\0';
    first_person_instance.age = 90;
    printf("NAME: %s\nAGE: %d\nADDRESS: %s\nPHONE-NUMBER: %s\n",
        first_person_instance.name,
@@ -26,4 +23,3 @@ int main() {
 
     return 0;
 }
-
