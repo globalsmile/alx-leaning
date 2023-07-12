@@ -1,1 +1,1 @@
-Enter your name: Enter your age: My name is global and am 0 years old.
+Enter your name: Enter your age: My name is globalsmile and am 25 years old.
