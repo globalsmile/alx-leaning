@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-        char c;
+	char c;
 
-        c = CHAR_MIN;
-        while (c != CHAR_MAX)
-        {
-            printf("%d\n", c);
-            c = c + 1;
-        }
-        return (EXIT_SUCCESS);
+	c = CHAR_MIN;
+	while (c != CHAR_MAX)
+	{
+		printf("%d\n", c);
+		c = c + 1;
+	}
+	return (EXIT_SUCCESS);
 }
