@@ -5,7 +5,7 @@
 void reverse(char actual_string[]);
 /**
  * reverse - reverses a character string
- * @actual_string: character string
+ * @actual_string: array of character string
  */
 void reverse(char actual_string[])
 {
